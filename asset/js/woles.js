@@ -1,4 +1,4 @@
-ajaxUrl = baseUrl+'index.php/'
+ajaxUrl = baseUrl+'index.html/'
 
 Vue.component('error', {
     props: ['msg'],
