@@ -1,0 +1,143 @@
+/*
+Theme Name: Worthy - Free Powerful Theme by HtmlCoder
+Author:HtmlCoder
+Author URI:http://www.htmlcoder.me
+Version:1.0.0
+Created:November 2014
+License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
+File Description: Place here your custom CSS styles
+*/
+
+.text-justify {
+    text-align: justify;
+}
+
+.bg-image-1, .bg-image-2, .bg-image-4 .banner-image {
+    background-attachment: fixed;
+}
+
+.banner-image {
+    background: url("../images/7.jpg") 50% 0px no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+.woles-title {
+    font-size: 3.5em !important;
+}
+
+@media (max-width: 767px) {
+    .nav-visible {
+        background-color: rgba(13, 9, 13, 0.9);
+    }
+}
+
+.bg-image-4 {
+    background: url("../images/dark-place3.jpg") 50% 0px no-repeat !important;
+    background-attachment: fixed !important;
+}
+.img-center-page {
+    height: 130px;
+    background: url("../images/github/GitHub-Mark-Light-120px-plus.png") 50% 0px no-repeat !important;
+}
+
+.text-thin {
+    font-weight: 300;
+}
+
+.read-more, .read-less {
+    color: rgb(186, 22, 22);
+    cursor: pointer;
+    display: none;
+}
+
+.woles-alert-success {
+    border-radius: 0 !important;
+    border: none !important;
+    background-color: rgb(23, 156, 48);
+    color: #fff;
+}
+
+.error-input {
+    color: rgb(255, 65, 65);
+}
+
+.captcha, .refresh-captcha {
+    float: left;
+}
+
+.btn-refresh {
+    padding: 10px 0 !important;
+    min-width: 40px !important;
+}
+
+.preload-wrapper {
+	/*z-index:9999999999;
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom:0;*/
+	background:none;
+	overflow: hidden;
+    float: left;
+}
+#preloader_1{
+    position:relative;
+    width:60px;
+    /*margin:-20px auto 1% auto; */
+    margin: 10% 0 15% 38%;
+    height: 10px;
+}
+#preloader_1 span{
+    display:block;
+    bottom:0px;
+    width: 9px;
+    height: 5px;
+    background:#9b59b6;
+    position:absolute;
+    -webkit-animation: preloader_1 1.5s  infinite ease-in-out;
+    animation: preloader_1 1.5s  infinite ease-in-out;
+
+}
+
+#preloader_1 span:nth-child(2){
+    left:11px;
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s;
+}
+#preloader_1 span:nth-child(3){
+    left:22px;
+    -webkit-animation-delay: .4s;
+    animation-delay: .4s;
+}
+#preloader_1 span:nth-child(4){
+    left:33px;
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s;
+}
+#preloader_1 span:nth-child(5){
+    left:44px;
+    -webkit-animation-delay: .8s;
+    animation-delay: .8s;
+}
+@-webkit-keyframes preloader_1 {
+    0% {height:5px;transform:translateY(0px);background:#9b59b6;}
+    25% {height:30px;transform:translateY(15px);background:#3498db;}
+    50% {height:5px;transform:translateY(0px);background:#9b59b6;}
+    100% {height:5px;transform:translateY(0px);background:#9b59b6;}
+}
+@keyframes preloader_1 {
+    0% {height:5px;transform:translateY(0px);background:#9b59b6;}
+    25% {height:30px;transform:translateY(15px);background:#3498db;}
+    50% {height:5px;transform:translateY(0px);background:#9b59b6;}
+    100% {height:5px;transform:translateY(0px);background:#9b59b6;}
+}
+
+.float-left {
+    float: left;
+}
+
+.sending {
+    width: 100%;
+    float: left;
+}
