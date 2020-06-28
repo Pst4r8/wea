@@ -716,3 +716,19 @@ textarea {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
+.captcha { 
+	font: italic bold 19px "Comic Sans MS", cursive, sans-serif; 
+	color: #a0a0a0;
+	background-color: #c0c0c0;
+	width: 100px;
+	height: 41px;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	text-decoration: line-through;
+}
+.errmsg {
+color:#ff0000;
+}
